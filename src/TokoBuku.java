@@ -1,5 +1,5 @@
 public class TokoBuku {
-
+    // Menghitung total harga akhir seluruh buku dalam keranjang.
     public static int hitungTotal(Buku[] keranjang) {
         int total = 0;
         for (Buku b : keranjang) {
