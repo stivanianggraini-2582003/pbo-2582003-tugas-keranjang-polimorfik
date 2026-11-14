@@ -15,7 +15,7 @@ public class BukuAudio extends Buku implements BisaDiunduh {
     public String keterangan() {
         return durasiMenit + " menit, diskon 10%";
     }
-
+    // Membuat link unduh berdasarkan judul buku audio.
     @Override
     public String linkUnduh() {
         String formattedJudul = getJudul().toLowerCase().replace(' ', '-');
